@@ -1,0 +1,98 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+html {
+    scroll-behavior: smooth;
+} 
+
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.logo {
+    margin-top: 18px;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+.container { 
+    background-image: url("https://officebanao.com/wp-content/uploads/2022/10/Modern-office-design-5-1024x576.jpg");
+    background-size: 100%;
+    height: 800px; 
+    background-repeat: no-repeat;
+}
+
+.text-body {
+    text-align: center; 
+    color: rgb(6, 51, 32);
+    padding-top: 12%;
+    font-size: 30px;
+}
+.text-body span{
+    font-size: 24px;
+    color: rgb(6, 51, 32);
+}
+
+.btn {
+    border: solid rgb(6, 51, 32); border-collapse: collapse;
+    border-radius: 15px;
+    background: transparent;
+    padding: 10px;
+    width: 8%;
+    font-size: 16px; 
+    color: rgb(6, 51, 32);
+}
+.btn:hover{
+    background-color: aliceblue; 
+}
+
+.text-body div{
+    padding-top: 8%;
+}
+.search {
+    background-color: blue;
+    padding: 8px; 
+    border-radius: 50px;
+    color: white;
+}
+.menu li i{
+    font-size: 22px;
+}
+
+.finish{
+    text-align: center;
+}
+
+.end {
+    margin: 5% 20%;
+}
+.end h3{
+    font-size: 24px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 10%; 
+}
+
+.block  img{
+    border-radius: 50px; 
+}
+.block div{
+    padding-top: 16%;
+}
